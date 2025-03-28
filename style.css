@@ -1,0 +1,131 @@
+
+
+/* Set the body background to black and make the text yellow */
+body {
+    background-color: black;
+    color: #FFFF00;
+}
+/* Update description text to white */
+
+
+/* Customize the text area with rounded corners, yellow border, and glow effect */
+textarea {
+    background-color: black;
+    border: 2px solid #FFFF00;
+    border-radius: 8px;
+    color: #FFFF00;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+textarea:focus {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 1);
+}
+
+/* Style the button with animation */
+button {
+    background-color: #ff0;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFD700;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.7);
+}
+
+/* Style the sidebar to match the theme */
+.css-1aumxhk {
+    background-color: #111 !important;
+}
+
+/* Style the radio buttons in the sidebar */
+.css-16huue1 {
+    background-color: #222;
+    color: #FFFF00;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #FFFF00;
+}
+
+/* Style the file uploader */
+.css-qrbkzn {
+    background-color: #333;
+    border-radius: 8px;
+    border: 2px solid #FFFF00;
+    color: #FFFF00;
+}
+
+/* Add animation to images */
+img {
+    border: 2px solid #FFFF00;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+}
+
+/* Adjust the text color and padding for better readability */
+h1, h2, h3, p, label {
+    color: #ff0;
+}
+
+/* Update description text to white */
+p.description-text {
+    color: #FFFFFF;
+}
+
+/* Style the download button */
+.css-ffhzg2 {
+    background-color: #FFFF00 !important;
+    color: #000 !important;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+    transition: transform 0.3s ease-in-out;
+}
+
+.css-ffhzg2:hover {
+    background-color: #FFD700 !important;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 0, 1);
+}
+
+/* Style the slider components */
+.css-1y4p8pa {
+    background-color: #222;
+    color: #FFFF00;
+    border: 2px solid #FFFF00;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* Add animation to the word document download button */
+.css-qbe2hs {
+    animation: pulsate 1.5s infinite;
+}
+
+/* Pulsate animation */
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(255, 255, 0, 1);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+    }
+}
